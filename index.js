@@ -18,7 +18,6 @@ module.exports = declare((api, options) => {
     ],
     plugins: [
       [require('@babel/plugin-transform-runtime')],
-      [require('@babel/plugin-transform-shorthand-properties')],
       [require('@babel/plugin-proposal-decorators'), { "legacy": true }],
       [require('@babel/plugin-proposal-class-properties'), { "loose": true }]
     ],
